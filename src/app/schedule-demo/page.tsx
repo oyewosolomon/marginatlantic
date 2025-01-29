@@ -4,6 +4,7 @@ import type { ReactElement, ChangeEvent } from 'react';
 import React, { useState } from 'react';
 import { Calendar, Clock, Building2, Users, ArrowRight, CheckCircle } from 'lucide-react';
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 interface FormData {
   firstName: string;
@@ -302,6 +303,7 @@ const ScheduleDemo: React.FC = () => {
             </div>
         </div>
         </div>
+        <Footer/>
     </>
   );
 };

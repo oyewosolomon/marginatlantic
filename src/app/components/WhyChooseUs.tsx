@@ -1,5 +1,6 @@
 import React from 'react';
 import { CheckCircle, Users, Clock, TrendingUp } from 'lucide-react';
+import Link from 'next/link';
 
 const WhyChooseUs = () => {
   const stats = [
@@ -77,11 +78,12 @@ const WhyChooseUs = () => {
 
           {/* CTA Section */}
           <div className="mt-16 text-center">
-            <button className="inline-flex items-center px-6 py-3 border border-transparent 
+            <Link href="/schedule-demo" className="inline-flex items-center px-6 py-3 border border-transparent 
               text-base font-medium rounded-md shadow-sm text-white bg-blue-600 
               hover:bg-blue-700 transition-colors duration-200">
               Schedule a Demo
-            </button>
+            </Link>
+          
             <p className="mt-4 text-sm text-gray-600">
               See how we can transform your logistics operations
             </p>

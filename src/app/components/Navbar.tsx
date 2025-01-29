@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import { Menu, X, ChevronDown } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,7 +30,8 @@ const Navbar = () => {
             {/* Logo */}
             <div className="flex-shrink-0 flex items-center">
                 <Link href="/">
-                    <span className="text-2xl font-bold text-blue-600">Margin Atlantic</span>
+                <Image src="/assets/logo.png" alt='Logo' width={120} height={60} />
+                    {/* <span className="text-2xl font-bold text-blue-600">Margin Atlantic</span> */}
                 </Link>
             </div>
 
@@ -101,7 +103,7 @@ const Navbar = () => {
               <a href="#" className="inline-flex items-center px-1 pt-1 text-gray-700 hover:text-blue-600">
                 Pricing
               </a>
-              <a href="#" className="inline-flex items-center px-1 pt-1 text-gray-700 hover:text-blue-600">
+              <a href="/about" className="inline-flex items-center px-1 pt-1 text-gray-700 hover:text-blue-600">
                 About
               </a>
             </div>

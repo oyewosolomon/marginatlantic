@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
       { name: 'Integration Tools', href: '#' },
     ],
     company: [
-      { name: 'About Us', href: '#' },
+      { name: 'About Us', href: '/about' },
       { name: 'Careers', href: '#' },
       { name: 'Press', href: '#' },
       { name: 'Contact', href: '#' },

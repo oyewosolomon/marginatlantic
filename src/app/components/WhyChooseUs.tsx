@@ -1,5 +1,5 @@
 import React from 'react';
-import { CheckCircle, Users, Clock, TrendingUp } from 'lucide-react';
+import { CheckCircle } from 'lucide-react';
 import Link from 'next/link';
 
 const WhyChooseUs = () => {

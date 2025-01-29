@@ -89,13 +89,21 @@ const About: React.FC = () => {
     <>
     <div className="relative bg-white mt-16">
       <Navbar />
-      
       {/* Background Pattern */}
       <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-white" aria-hidden="true">
-        <div className="absolute inset-0 bg-[linear-gradient(30deg,#f0f7ff_33%,transparent_33%)]" />
+      <Image 
+      src="/assets/margin-bg.webp"
+      alt="Background pattern"
+      fill
+      priority
+      quality={100}
+      sizes="100vw"
+      className="object-cover object-center"
+    />
+        <div className="absolute bg-black/30 inset-0 bg-[linear-gradient(30deg,#f0f7ff_33%,transparent_33%)]" />
       </div>
 
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-28">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-28 ">
         {/* About Section */}
         <motion.div
           initial="initial"
@@ -104,10 +112,10 @@ const About: React.FC = () => {
           transition={{ duration: 0.6 }}
           className="text-center"
         >
-          <h1 className="text-4xl font-bold tracking-tight text-gray-900 md:text-5xl lg:text-6xl">
+          <h1 className="text-4xl font-bold tracking-tight text-white md:text-5xl lg:text-6xl">
             About Margin Atlantic
           </h1>
-          <p className="mt-6 text-lg leading-8 text-gray-600 max-w-2xl mx-auto">
+          <p className="mt-6 text-lg leading-8 text-white max-w-2xl mx-auto">
             Transforming supply chains with innovative solutions that drive efficiency and growth.
             Empowering businesses to succeed in competitive markets through cutting-edge technology.
           </p>
@@ -121,8 +129,8 @@ const About: React.FC = () => {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="mt-20 text-center"
         >
-          <h2 className="text-3xl font-bold text-gray-900">Our Mission</h2>
-          <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
+          <h2 className="text-3xl font-bold text-white">Our Mission</h2>
+          <p className="mt-4 text-lg text-white max-w-2xl mx-auto">
             To revolutionize supply chain management through automation, analytics, and 
             multi-carrier integration solutions.
           </p>
@@ -130,7 +138,7 @@ const About: React.FC = () => {
 
         {/* Team Section */}
         <section className="mt-20">
-          <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">Leadership Team</h2>
+          <h2 className="text-3xl font-bold text-white text-center mb-12">Leadership Team</h2>
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {teamMembers.map((member, index) => (
               <motion.div

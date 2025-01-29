@@ -111,12 +111,12 @@ const Navbar = () => {
 
           {/* Desktop CTA Buttons */}
           <div className="hidden md:flex md:items-center md:space-x-4">
-            <button className="px-4 py-2 text-gray-700 hover:text-blue-600">
+            <Link href="/auth" className="px-4 py-2 text-gray-700 hover:text-blue-600">
               Sign In
-            </button>
-            <button className="px-4 py-2 rounded-md bg-blue-600 text-white hover:bg-blue-700">
+            </Link>
+            <Link href="/auth" className="px-4 py-2 rounded-md bg-blue-600 text-white hover:bg-blue-700">
               Get Started
-            </button>
+            </Link>
           </div>
 
           {/* Mobile menu button */}

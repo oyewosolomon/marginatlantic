@@ -104,7 +104,7 @@ const ScheduleDemo: React.FC = () => {
                   name="firstName"
                   value={formData.firstName}
                   onChange={handleInputChange}
-                  className="mt-1 block w-full rounded-md border-1 border-blue-400 border-gray-300 outline-blue-500 p-2 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                  className="mt-1 block w-full rounded-md border-[1px] outline-blue-500 border-blue-600 p-2 shadow-sm focus:border-blue-500 focus:ring-blue-500"
                 />
               </div>
               <div>
@@ -114,7 +114,7 @@ const ScheduleDemo: React.FC = () => {
                   name="lastName"
                   value={formData.lastName}
                   onChange={handleInputChange}
-                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                  className="mt-1 block w-full rounded-md border-[1px] outline-blue-500 border-blue-600 p-2 shadow-sm focus:border-blue-500 focus:ring-blue-500"
                 />
               </div>
             </div>
@@ -125,12 +125,12 @@ const ScheduleDemo: React.FC = () => {
                 name="email"
                 value={formData.email}
                 onChange={handleInputChange}
-                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                className="mt-1 block w-full rounded-md border-[1px] outline-blue-500 border-blue-600 p-2 shadow-sm focus:border-blue-500 focus:ring-blue-500"
               />
             </div>
           </div>
         );
-
+  
       case 2:
         return (
           <div className="space-y-6">
@@ -141,7 +141,7 @@ const ScheduleDemo: React.FC = () => {
                 name="company"
                 value={formData.company}
                 onChange={handleInputChange}
-                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                className="mt-1 block w-full rounded-md border-[1px] outline-blue-500 border-blue-600 p-2 shadow-sm focus:border-blue-500 focus:ring-blue-500"
               />
             </div>
             <div>
@@ -150,7 +150,7 @@ const ScheduleDemo: React.FC = () => {
                 name="role"
                 value={formData.role}
                 onChange={handleInputChange}
-                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                className="mt-1 block w-full rounded-md border-[1px] outline-blue-500 border-blue-600 p-2 shadow-sm focus:border-blue-500 focus:ring-blue-500"
               >
                 <option value="">Select your role</option>
                 {ROLES.map(role => (
@@ -166,7 +166,7 @@ const ScheduleDemo: React.FC = () => {
                 name="monthlyOrders"
                 value={formData.monthlyOrders}
                 onChange={handleInputChange}
-                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                className="mt-1 block w-full rounded-md border-[1px] outline-blue-500 border-blue-600 p-2 shadow-sm focus:border-blue-500 focus:ring-blue-500"
               >
                 <option value="">Select monthly orders</option>
                 {ORDER_VOLUMES.map(volume => (
@@ -178,7 +178,7 @@ const ScheduleDemo: React.FC = () => {
             </div>
           </div>
         );
-
+  
       case 3:
         return (
           <div className="space-y-6">
@@ -189,7 +189,7 @@ const ScheduleDemo: React.FC = () => {
                 name="date"
                 value={formData.date}
                 onChange={handleInputChange}
-                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                className="mt-1 block w-full rounded-md border-[1px] outline-blue-500 border-blue-600 p-2 shadow-sm focus:border-blue-500 focus:ring-blue-500"
               />
             </div>
             <div>
@@ -198,7 +198,7 @@ const ScheduleDemo: React.FC = () => {
                 name="time"
                 value={formData.time}
                 onChange={handleInputChange}
-                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                className="mt-1 block w-full rounded-md border-[1px] outline-blue-500 border-blue-600 p-2 shadow-sm focus:border-blue-500 focus:ring-blue-500"
               >
                 <option value="">Select a time slot</option>
                 {TIME_SLOTS.map(slot => (
@@ -210,7 +210,7 @@ const ScheduleDemo: React.FC = () => {
             </div>
           </div>
         );
-
+  
       default:
         return <></>;
     }

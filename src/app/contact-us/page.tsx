@@ -42,7 +42,7 @@ const ContactPage: React.FC = () => {
         <div className="container mx-auto px-4">
           <h1 className="text-4xl font-bold text-center mb-4">Contact Us</h1>
           <p className="text-center text-lg max-w-2xl mx-auto">
-            Have questions? We're here to help. Send us a message and we'll respond as soon as possible.
+            Have questions? We&apos;re here to help. Send us a message and we&apos;ll respond as soon as possible.
           </p>
         </div>
       </div>
@@ -170,7 +170,7 @@ const ContactPage: React.FC = () => {
                 New York, NY 10001
               </p>
               <p className="text-gray-600">
-                Located in the heart of Manhattan's business district, our office is easily accessible by public transportation.
+                Located in the heart of Manhattan&apos;s business district, our office is easily accessible by public transportation.
               </p>
             </div>
           </div>

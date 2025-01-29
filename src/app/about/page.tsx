@@ -187,7 +187,7 @@ const About: React.FC = () => {
         >
           <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">Core Values</h2>
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-            {values.map((value, index) => (
+            {values.map((value) => (
               <motion.div
                 key={value.title}
                 whileHover={{ y: -5 }}

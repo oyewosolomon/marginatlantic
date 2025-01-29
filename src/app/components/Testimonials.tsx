@@ -47,7 +47,7 @@ const Testimonials: React.FC = () => {
                 ))}
               </div>
               <blockquote className="text-gray-700 mb-6">
-                "{testimonial.quote}"
+                {testimonial.quote}
               </blockquote>
               <div className="mt-auto">
                 <p className="font-medium text-gray-900">{testimonial.author}</p>

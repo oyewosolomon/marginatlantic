@@ -144,7 +144,7 @@ const Hero = () => {
                 animate="visible"
               >
                 <motion.p 
-                  className="text-sm font-semibold text-gray-400 tracking-wide uppercase"
+                  className="text-sm font-semibold text-gray-700 tracking-wide uppercase"
                   variants={itemVariants}
                 >
                   Trusted by industry leaders

@@ -54,7 +54,7 @@ const ContactPage: React.FC = () => {
             <Phone className="text-blue-600 w-6 h-6 mt-1" />
             <div>
               <h3 className="font-semibold text-lg mb-2">Phone</h3>
-              <p className="text-gray-600">+1 (555) 123-4567</p>
+              <p className="text-gray-600">+234 803 613 1267</p>
               <p className="text-gray-600">Mon-Fri 9am-6pm EST</p>
             </div>
           </div>
@@ -73,7 +73,7 @@ const ContactPage: React.FC = () => {
             <div>
               <h3 className="font-semibold text-lg mb-2">Office</h3>
               <p className="text-gray-600">123 Business Ave</p>
-              <p className="text-gray-600">New York, NY 10001</p>
+              <p className="text-gray-600">Wuse, Abuja </p>
             </div>
           </div>
         </div>
@@ -167,7 +167,7 @@ const ContactPage: React.FC = () => {
               <p className="text-gray-600">
                 123 Business Avenue<br />
                 Suite 456<br />
-                New York, NY 10001
+                Wuse, Abuja, Nigeria
               </p>
               <p className="text-gray-600">
                 Located in the heart of Manhattan&apos;s business district, our office is easily accessible by public transportation.

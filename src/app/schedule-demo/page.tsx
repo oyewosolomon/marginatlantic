@@ -1,6 +1,6 @@
 "use client"
 
-import type { ReactElement, ChangeEvent } from 'react';
+import type { ReactElement } from 'react';
 import React, { useState } from 'react';
 import { ArrowRight, CheckCircle } from 'lucide-react';
 import Navbar from '../components/Navbar';

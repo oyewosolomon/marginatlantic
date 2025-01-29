@@ -4,14 +4,14 @@ import { Star } from 'lucide-react';
 const Testimonials: React.FC = () => {
   const testimonials = [
     {
-      quote: "Margin Atlantic transformed our fulfillment operations. We've seen a 40% reduction in shipping costs and improved customer satisfaction scores.",
+      quote: "Margin Atlantic transformed our fulfillment operations. We&quot;ve seen a 40% reduction in shipping costs and improved customer satisfaction scores.",
       author: "Sarah Chen",
       role: "Operations Director",
       company: "EcoShop Global",
       rating: 5
     },
     {
-      quote: "The analytics dashboard gives us unprecedented visibility into our supply chain. It's like having a logistics expert on call 24/7.",
+      quote: "The analytics dashboard gives us unprecedented visibility into our supply chain. Its like having a logistics expert on call 24/7.",
       author: "Marcus Rodriguez",
       role: "Logistics Manager",
       company: "Pure Retail",

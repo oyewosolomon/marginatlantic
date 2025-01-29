@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { motion } from 'framer-motion';
 import { Linkedin, Github, Mail } from 'lucide-react';
+import Image from 'next/image';
 
 // Type definitions
 interface TeamMember {
@@ -141,7 +142,7 @@ const About: React.FC = () => {
                 className="relative group bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
               >
                 <div className="aspect-square overflow-hidden">
-                  <img
+                  <Image                 
                     src={member.image}
                     alt={member.name}
                     className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-300"

@@ -80,14 +80,7 @@ const ScheduleDemo: React.FC = () => {
     }));
   };
 
-  const handleInterestToggle = (interest: string): void => {
-    setFormData(prev => ({
-      ...prev,
-      interests: prev.interests.includes(interest)
-        ? prev.interests.filter(i => i !== interest)
-        : [...prev.interests, interest]
-    }));
-  };
+
 
   const handleSubmit = async (): Promise<void> => {
     try {

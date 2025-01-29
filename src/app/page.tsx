@@ -13,7 +13,7 @@ export default function Home() {
    <Features/>
    <WhyChooseUs/>
    <Testimonials/>
-   <Integrations/>
+   {/* <Integrations/> */}
    <CTASection/>
    <Footer/>
    </>
